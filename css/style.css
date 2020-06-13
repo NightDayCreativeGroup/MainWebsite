@@ -56,10 +56,15 @@ header {
         color: #fff;
         font-size: 16px;
         margin: 0px 15px; }
+        header .container-fluid nav a:hover {
+          text-decoration: none; }
         header .container-fluid nav a.getStarted {
           background-color: #db6760;
           padding: 15px 30px;
           border-radius: 30px; }
+          header .container-fluid nav a.getStarted:hover {
+            background-color: #d23f36;
+            text-decoration: none; }
       header .container-fluid nav .switch {
         position: relative;
         display: inline-block;

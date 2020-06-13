@@ -36,10 +36,17 @@ header{
             color:$white;
             font-size:16px;
             margin:0px 15px;
+            &:hover{
+                text-decoration:none;
+            }
             &.getStarted{
                 background-color:$getstarted;
                 padding: 15px 30px;
                 border-radius: 30px;
+                &:hover{
+                    background-color:$getstartedhover;
+                    text-decoration: none;
+                }
             }
         }
         .switch {
