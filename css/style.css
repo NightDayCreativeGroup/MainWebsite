@@ -64,7 +64,8 @@ header {
         position: relative;
         display: inline-block;
         width: 60px;
-        height: 34px; }
+        height: 34px;
+        margin-left: 15px; }
       header .container-fluid nav .switch input {
         opacity: 0;
         width: 0;
